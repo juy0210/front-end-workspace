@@ -1,0 +1,23 @@
+#outer {
+  position: relative;
+  background-color: indianred;
+  height: 1000px;
+}
+#first {
+  position: absolute;
+  background-color: indianred;
+  height: 50px;
+}
+#second {
+  background-image: url("../resources/bao.jpg");
+  position: absolute;
+  background-color: indianred;
+  position: static;
+  border: solid white;
+}
+#first {
+  position: absolute;
+  background-color: indianred;
+  position: static;
+  border: solid white;
+}
