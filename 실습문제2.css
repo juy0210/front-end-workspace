@@ -1,0 +1,14 @@
+header {
+  /* position: fixed를 하면 width가 0 그래서 따로 width를 설정해야함 */
+  position: fixed;
+  background-color: skyblue;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+section {
+  background: red;
+  height: 100vh;
+  text-align: center;
+  align-items: center;
+}

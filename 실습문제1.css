@@ -1,0 +1,67 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: indianred;
+  /* linear-gradient:그라데이션 컬러 속성, vh:그라데이션을 전체로 입력, 화면에 보이는 영역만 */
+  background: linear-gradient(purple, pink);
+  height: 100vh;
+  padding: 20px;
+}
+.profile-card {
+  /* text-align: center;(글씨를 가운데 위치하는 속성) */
+  text-align: center;
+  width: 320px;
+  border: 2px solid white;
+  /*
+  position: absolute;(도형의 위치를 설정)
+  top: 20px;
+  left: 50%;
+  transform: translate(-50%);(도형을 정가운데로 위치)
+  margin: 20px(상하조절) auto(좌우를 조절,창을 줄여도 도형을 가운데 위치 유지);
+  */
+  margin: auto;
+  border-radius: 5%;
+}
+.profile-image {
+  background-image: url("../resources/bao.jpg");
+  background-size: cover;
+  background-position: center;
+  width: 150px;
+  height: 150px;
+  /*width, height를 설정해야 사진이 나타남*/
+  border-radius: 50%;
+  margin: 20px auto;
+}
+.profile-card img {
+  width: 150px;
+  height: 150px;
+  /* object-fit: cover;(줄여진 이미지를 원래 이미지로 돌려줌) */
+  object-fit: cover;
+  border-radius: 50%;
+  margin-top: 20px;
+}
+.profile-card h2 {
+  color: white;
+  margin-top: 10px;
+}
+.profile-card a {
+  border: 2px solid white;
+  display: block;
+  margin: 10px;
+  /*
+  height: 40px;
+  line-height: 40px;
+  */
+  padding: 15px;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+/* hover: 커서를 댔을때 클릭컬러가 생기고 그 요소전체가 클릭으로 인식 */
+.profile-card a:hover {
+  background-color: white;
+  color: black;
+}
